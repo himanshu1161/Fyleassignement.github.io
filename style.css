@@ -361,8 +361,8 @@ height: 34px;
     height: 310px;
     background: transparent url('redbg.png') 0% 0% no-repeat padding-box;
 opacity: 1
-
 }
+
 .contact{
     display: none;
     flex-direction: column;
@@ -503,11 +503,18 @@ opacity: 1
     }
     .img-cont{
         flex-direction: column;
+        margin-left: 10px;
     }
     .head1{
         margin-top: 30px;
         margin-left: 0rem !important;
         
+    }
+    .sub-head{
+        margin-left: 1.5rem;
+    }
+    .footer img{
+        width: 60%;
     }
     .btn-1{
         margin-left: 80px;
@@ -524,6 +531,10 @@ opacity: 1
     .resp{
         width:300px !important
     }
+    main{
+        overflow-x: hidden;
+    }
+
 }
 
 
