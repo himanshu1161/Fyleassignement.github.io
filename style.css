@@ -455,6 +455,14 @@ opacity: 1
   label{
     margin-top: 22px;
   }
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 
 
 @media (max-width: 1025px) {
@@ -469,9 +477,26 @@ opacity: 1
     .img-cont{
         flex-direction: column;
     }
+    .footer1 img {
+        width: 95vw;
+        height: fit-content;
+    }
+    .sub-input p {
+        font-size: 15px;
+    }
+  
 }
 
 @media (max-width: 767px) {
+    .footer1{
+        align-items: flex-start !important;
+    }
+    .footer1 img {
+       margin-top: 10px;
+    }
+    .head3{
+        font-size: 35px;
+    }
     .cont {
         padding: 0 20px; 
     }
@@ -481,11 +506,11 @@ opacity: 1
     }
     .sub-cont2{
         flex-direction: column;
-        margin-left: 0;
+        margin-left: 10px;
     }
     .span-content{
         margin-left: 0rem !important;
-        font-size: 13px;
+        font-size: 10px;
     }
     .left-cont {
         display: none; 
@@ -507,7 +532,7 @@ opacity: 1
     }
     .head1{
         margin-top: 30px;
-        margin-left: 0rem !important;
+        margin-left: 10px !important;
         
     }
     .sub-head{
@@ -517,19 +542,20 @@ opacity: 1
         width: 60%;
     }
     .btn-1{
-        margin-left: 80px;
+        margin-left: 85px;
     }
     .overlay{
         width: 85%;
     }
     #input1{
-        width: 320px;
+        width: 280px;
     }
     #input2{
-        width: 140px;
+        width: 125px;
     }
     .resp{
-        width:300px !important
+        width:300px !important;
+        margin-left: 20px !important;
     }
     main{
         overflow-x: hidden;

@@ -30,4 +30,7 @@ $(document).ready(function () {
     $(".contact-btn").click(function () {
         $(".contact").toggle();
     });
+    $(".close-btn").click(function () {
+        $(".contact").hide();
+    });
 });
