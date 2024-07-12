@@ -490,6 +490,7 @@ opacity: 1
 @media (max-width: 767px) {
     .footer1{
         align-items: flex-start !important;
+        height: 220px;
     }
     .footer1 img {
        margin-top: 10px;
